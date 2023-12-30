@@ -1,0 +1,116 @@
+/* mainContainer 스타일 */
+.mainContainer {
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.85
+  ); /* 배경색을 흰색으로 설정하고 투명도를 조절 */
+}
+
+/* 배경 이미지 */
+.mainContainer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("./img/sketch-3045125_1920.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+/* header 스타일 */
+.header {
+  padding: 20px;
+  position: relative;
+  z-index: 2; /* contentBox보다 위에 표시 */
+}
+
+/* contentBox 스타일 */
+.contentBox {
+  width: 1200px;
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.75); /* 흰색 배경에 투명도 부여 */
+  height: 500px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 100vh;  */
+}
+
+/* firstText 스타일 */
+.firstText {
+  font-size: 2em; /* 폰트 크기 (조절가능) */
+}
+
+/* secondText 스타일 */
+.secondText {
+  font-size: 1.5em; /* 폰트 크기 (조절가능) */
+}
+
+.previousButton {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  font-size: 24px; /* 아이콘 크기 조절 */
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+.nextButton {
+  right: 10px;
+  position: absolute;
+  bottom: 10px;
+  font-size: 24px; /* 아이콘 크기 조절 */
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.previousButton::before,
+.nextButton::before {
+  display: block;
+}
+
+.nextButton::before {
+}
+
+.previousButton:hover,
+.nextButton:hover {
+  color: rgba(0, 0, 0, 0.7); /* hover 시에 화살표 색상을 더 진하게 설정 */
+}
+
+/* textBox 스타일 */
+.textBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 20px;
+}
+
+.headerText {
+  font-size: 50px;
+  font-weight: bold;
+}

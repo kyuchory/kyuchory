@@ -1,0 +1,20 @@
+.container {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  display: flex;
+  flex-direction: row;
+
+  align-items: center; /* Center items vertically based on height */
+  justify-content: center; /* Center items horizontally */
+}
+
+.firstSkill {
+}
+
+.secondSkill {
+  margin-left: 100px;
+  margin-right: 100px;
+}

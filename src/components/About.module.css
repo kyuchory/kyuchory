@@ -1,0 +1,23 @@
+.container {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  display: flex;
+  flex-direction: row;
+
+  overflow: auto; /* 스크롤을 가능하게 하는 속성 */
+  max-height: 1500px; /* 컨테이너의 최대 높이를 설정합니다. */
+}
+
+.imageBox img {
+  width: 300px; /* Set your desired width in pixels */
+  height: auto; /* Automatically adjusts height based on the width */
+  display: block;
+  max-width: 100%; /* Ensures the image doesn't exceed its original size */
+}
+
+.textBox {
+  padding-left: 30px;
+}
