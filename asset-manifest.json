@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kyuchory/static/css/main.3a22c6e4.css",
-    "main.js": "/kyuchory/static/js/main.a41ab7c7.js",
+    "main.css": "/kyuchory/static/css/main.99a9d1fe.css",
+    "main.js": "/kyuchory/static/js/main.8f07da61.js",
     "static/js/787.52132c0c.chunk.js": "/kyuchory/static/js/787.52132c0c.chunk.js",
     "static/media/travelMain.png": "/kyuchory/static/media/travelMain.ca3147e9427c072bd84b.png",
     "static/media/lifeup2.gif": "/kyuchory/static/media/lifeup2.5ef4617b318677f61684.gif",
@@ -10,6 +10,7 @@
     "static/media/lifeup1.gif": "/kyuchory/static/media/lifeup1.087ebb2a5504ab1278d4.gif",
     "static/media/lifeup5.png": "/kyuchory/static/media/lifeup5.ea6147ff6fc7a0664cf6.png",
     "static/media/lifeup4.gif": "/kyuchory/static/media/lifeup4.a0bc784a19ed294da7a9.gif",
+    "static/media/BlackHanSans-Regular.ttf": "/kyuchory/static/media/BlackHanSans-Regular.f4f89062321390018f92.ttf",
     "static/media/gamchu1.png": "/kyuchory/static/media/gamchu1.7fed10b48d3ac0cbe881.png",
     "static/media/travel4.png": "/kyuchory/static/media/travel4.f51d6d8bf9f57f6c1645.png",
     "static/media/travel2.png": "/kyuchory/static/media/travel2.ef69a96801b592d9e366.png",
@@ -30,12 +31,12 @@
     "static/media/travel7.png": "/kyuchory/static/media/travel7.093e2d59bcf0216b2928.png",
     "static/media/logo.svg": "/kyuchory/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/kyuchory/index.html",
-    "main.3a22c6e4.css.map": "/kyuchory/static/css/main.3a22c6e4.css.map",
-    "main.a41ab7c7.js.map": "/kyuchory/static/js/main.a41ab7c7.js.map",
+    "main.99a9d1fe.css.map": "/kyuchory/static/css/main.99a9d1fe.css.map",
+    "main.8f07da61.js.map": "/kyuchory/static/js/main.8f07da61.js.map",
     "787.52132c0c.chunk.js.map": "/kyuchory/static/js/787.52132c0c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a22c6e4.css",
-    "static/js/main.a41ab7c7.js"
+    "static/css/main.99a9d1fe.css",
+    "static/js/main.8f07da61.js"
   ]
 }
