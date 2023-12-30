@@ -10,8 +10,20 @@ import FirstPage from "./components/FirstPage";
 import Skills from "./components/Skills";
 import right from "./img/icon/right.png";
 import left from "./img/icon/left.png";
+import leftmenu from "./img/icon/leftmenu.png";
 
 function MainPage() {
+  const [isMenuVisible, setMenuVisible] = useState(false);
+
+  const handleMenuToggle = () => {
+    setMenuVisible(!isMenuVisible);
+  };
+
+  const handleMenuItemClick = (index) => {
+    setCurrentSlide(index);
+    setMenuVisible(false); // 메뉴 아이템을 클릭하면 메뉴를 닫습니다.
+  };
+
   const [currentSlide, setCurrentSlide] = useState(0);
   const slides = [
     <FirstPage />,
@@ -65,6 +77,27 @@ function MainPage() {
       tabIndex="0" // 포커스를 받을 수 있도록 tabIndex를 설정합니다.
       onKeyDown={handleKeyPress}
     >
+      <img
+        src={leftmenu}
+        alt="menu"
+        className={styles.leftTopMenu}
+        onMouseEnter={handleMenuToggle}
+        onMouseLeave={handleMenuToggle}
+      />
+      <div
+        className={`${styles.menuContainer} ${isMenuVisible && styles.show}`}
+      >
+        {/* 메뉴 내용 */}
+        {/* 예: <div>Menu Content</div> */}
+        <div onClick={() => handleMenuItemClick(0)}>Hello</div>
+        <div onClick={() => handleMenuItemClick(1)}>About Me</div>
+        <div onClick={() => handleMenuItemClick(2)}>Skills</div>
+        <div onClick={() => handleMenuItemClick(3)}>여기저기</div>
+        <div onClick={() => handleMenuItemClick(4)}>겜추</div>
+        <div onClick={() => handleMenuItemClick(5)}>LifeUp</div>
+        <div onClick={() => handleMenuItemClick(6)}>Silvable</div>
+        <div onClick={() => handleMenuItemClick(7)}>Contact</div>
+      </div>
       <div className={styles.header}>
         <div className={styles.headerText}>
           <div>{headerText[currentSlide]}</div>

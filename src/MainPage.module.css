@@ -1,5 +1,6 @@
 /* mainContainer 스타일 */
 .mainContainer {
+  width: 1530px;
   height: 900px;
   display: flex;
   flex-direction: column;
@@ -34,7 +35,6 @@
 .header {
   padding: 20px;
   position: relative;
-  z-index: 2; /* contentBox보다 위에 표시 */
 }
 
 /* contentBox 스타일 */
@@ -69,7 +69,7 @@
 .previousButton {
   position: absolute;
   left: 10px;
-  bottom: 10px;
+  bottom: 2px;
   font-size: 24px; /* 아이콘 크기 조절 */
   background-color: transparent;
   border: none;
@@ -79,7 +79,7 @@
 .nextButton {
   right: 10px;
   position: absolute;
-  bottom: 10px;
+  bottom: 2px;
   font-size: 24px; /* 아이콘 크기 조절 */
   background-color: transparent;
   border: none;
@@ -113,4 +113,37 @@
 .headerText {
   font-size: 50px;
   font-weight: bold;
+  font-family: "Black Han Sans", sans-serif;
+}
+
+@font-face {
+  font-family: "Black Han Sans";
+  src: url("../src/font/BlackHanSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.leftTopMenu {
+  position: absolute;
+  top: 0;
+  left: 5px;
+  width: 40px;
+  height: 40px;
+
+  cursor: pointer;
+}
+
+.menuContainer {
+  display: none;
+  position: absolute;
+  top: 40px; /* 메뉴와의 간격 조절 */
+  left: 0;
+  padding: 10px;
+  background-color: #fff; /* 메뉴의 배경색 설정 */
+  border: 1px solid #ccc; /* 메뉴의 테두리 설정 */
+}
+
+.leftTopMenu:hover + .menuContainer,
+.menuContainer:hover {
+  display: block;
 }

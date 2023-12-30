@@ -13,7 +13,16 @@
 }
 
 .container {
-  /* padding-left: 30px;
+  padding-left: 30px;
   padding-right: 30px;
-  padding-top: 20px; */
+  padding-top: 20px;
+  animation: 0.7s ease-in-out loadEffect1;
+}
+@keyframes loadEffect1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
