@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/kyuchory/static/css/main.3a22c6e4.css",
+    "main.js": "/kyuchory/static/js/main.a41ab7c7.js",
+    "static/js/787.52132c0c.chunk.js": "/kyuchory/static/js/787.52132c0c.chunk.js",
+    "static/media/travelMain.png": "/kyuchory/static/media/travelMain.ca3147e9427c072bd84b.png",
+    "static/media/lifeup2.gif": "/kyuchory/static/media/lifeup2.5ef4617b318677f61684.gif",
+    "static/media/travel3.png": "/kyuchory/static/media/travel3.5b5a020cd885f24dffcf.png",
+    "static/media/lifeup3.gif": "/kyuchory/static/media/lifeup3.db5340714915b24e9a13.gif",
+    "static/media/lifeup1.gif": "/kyuchory/static/media/lifeup1.087ebb2a5504ab1278d4.gif",
+    "static/media/lifeup5.png": "/kyuchory/static/media/lifeup5.ea6147ff6fc7a0664cf6.png",
+    "static/media/lifeup4.gif": "/kyuchory/static/media/lifeup4.a0bc784a19ed294da7a9.gif",
+    "static/media/gamchu1.png": "/kyuchory/static/media/gamchu1.7fed10b48d3ac0cbe881.png",
+    "static/media/travel4.png": "/kyuchory/static/media/travel4.f51d6d8bf9f57f6c1645.png",
+    "static/media/travel2.png": "/kyuchory/static/media/travel2.ef69a96801b592d9e366.png",
+    "static/media/sketch-3045125_1920.jpg": "/kyuchory/static/media/sketch-3045125_1920.6e3b75f71d34b591c058.jpg",
+    "static/media/gamchu7.png": "/kyuchory/static/media/gamchu7.e8f9988dc41d3f0819e6.png",
+    "static/media/gamchu2.png": "/kyuchory/static/media/gamchu2.7dd89e5abf716eacd668.png",
+    "static/media/travel6.png": "/kyuchory/static/media/travel6.6bf691523292e3b6c896.png",
+    "static/media/gamchu5.png": "/kyuchory/static/media/gamchu5.a91c6f95a4da4a859229.png",
+    "static/media/travel9.png": "/kyuchory/static/media/travel9.91ab101760b308bb311e.png",
+    "static/media/sum.png": "/kyuchory/static/media/sum.5fc23b184e87efe1c321.png",
+    "static/media/gamchu4.png": "/kyuchory/static/media/gamchu4.9b3e978901ea15a47508.png",
+    "static/media/skc.jpg": "/kyuchory/static/media/skc.814f931e119c04c278bf.jpg",
+    "static/media/gamchu6.png": "/kyuchory/static/media/gamchu6.d1cc99138b1e0871ae3d.png",
+    "static/media/gamchu8.png": "/kyuchory/static/media/gamchu8.21918d2ed970d6815aae.png",
+    "static/media/gamchu3.png": "/kyuchory/static/media/gamchu3.ccbadda7def744d4f8e0.png",
+    "static/media/travel8.png": "/kyuchory/static/media/travel8.e770ee1df9fc220a481f.png",
+    "static/media/travel5.png": "/kyuchory/static/media/travel5.5fd434076f6a0b687395.png",
+    "static/media/travel7.png": "/kyuchory/static/media/travel7.093e2d59bcf0216b2928.png",
+    "static/media/logo.svg": "/kyuchory/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/kyuchory/index.html",
+    "main.3a22c6e4.css.map": "/kyuchory/static/css/main.3a22c6e4.css.map",
+    "main.a41ab7c7.js.map": "/kyuchory/static/js/main.a41ab7c7.js.map",
+    "787.52132c0c.chunk.js.map": "/kyuchory/static/js/787.52132c0c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a22c6e4.css",
+    "static/js/main.a41ab7c7.js"
+  ]
+}
