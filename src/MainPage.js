@@ -16,12 +16,13 @@ function MainPage() {
   const [isMenuVisible, setMenuVisible] = useState(false);
 
   const handleMenuToggle = () => {
+    // 메뉴 여닫기 상태관리 함수
     setMenuVisible(!isMenuVisible);
   };
 
   const handleMenuItemClick = (index) => {
     setCurrentSlide(index);
-    setMenuVisible(false); // 메뉴 아이템을 클릭하면 메뉴를 닫습니다.
+    setMenuVisible(false);
   };
 
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -74,7 +75,7 @@ function MainPage() {
   return (
     <div
       className={styles.mainContainer}
-      tabIndex="0" // 포커스를 받을 수 있도록 tabIndex를 설정합니다.
+      tabIndex="0" // 포커스를 받을 수 있도록 tabIndex를 설정. 이거 그냥 useEffect에서 여기 포커스 주게 해야 클릭 안해도 화살표키로 넘길수있을듯.. ?
       onKeyDown={handleKeyPress}
     >
       <img
@@ -89,13 +90,16 @@ function MainPage() {
       >
         {/* 메뉴 내용 */}
         {/* 예: <div>Menu Content</div> */}
+        <div className={styles.sideBarLine}>Introduction</div>
         <div onClick={() => handleMenuItemClick(0)}>Hello</div>
         <div onClick={() => handleMenuItemClick(1)}>About Me</div>
         <div onClick={() => handleMenuItemClick(2)}>Skills</div>
+        <div className={styles.sideBarLine}>My Projects</div>
         <div onClick={() => handleMenuItemClick(3)}>여기저기</div>
         <div onClick={() => handleMenuItemClick(4)}>겜추</div>
         <div onClick={() => handleMenuItemClick(5)}>LifeUp</div>
         <div onClick={() => handleMenuItemClick(6)}>Silvable</div>
+        <div className={styles.sideBarLine}>Thank You!</div>
         <div onClick={() => handleMenuItemClick(7)}>Contact</div>
       </div>
       <div className={styles.header}>

@@ -40,6 +40,7 @@ const Projects = () => {
       prevIndex === 0 ? images.length - 1 : prevIndex - 1
     );
   };
+
   return (
     <div className={styles.container}>
       {" "}
