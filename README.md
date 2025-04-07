@@ -23,6 +23,6 @@
 
 <h3>저를 더 알고싶다면</h3>
 <a href="https://kyuchory.github.io/portfolio/">
-    <img src="http://img.shields.io/badge/Tech Blog-00D182?style=flat&logo=Emby&logoColor=white&link=https://velog.io/@987412563"
+    <img src="http://img.shields.io/badge/Portfolio-00D182?style=flat&logo=Emby&logoColor=white&link=https://kyuchory.github.io/portfolio/"
         style="height : auto; margin-left : 10px; margin-right : 10px;"/>
 </a
