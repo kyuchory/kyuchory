@@ -23,7 +23,7 @@
 <img src="https://img.shields.io/badge/Redux-E34F26?style=flat-square&logo=Redux&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/></a>&nbsp;
 </div>
 
-<h3>저를 더 알고싶다면</h3>
+<h3>💻포트폴리오</h3>
 <a href="https://kyuchory.github.io/portfolio/">
     <img src="http://img.shields.io/badge/Portfolio-00D182?style=flat&logo=Emby&logoColor=white&link=https://kyuchory.github.io/portfolio/"
         style="height : auto; margin-left : 10px; margin-right : 10px;"/>
