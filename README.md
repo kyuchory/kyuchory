@@ -1,31 +1,37 @@
 <h1 align="center"> 신규철 </h1>
 
-<h3>🦢간단 소개</h3>
-27세 웹 개발자를 희망하는 신규철입니다.<br>
-여러 프로젝트 경험을 통해 웹 개발의 경험을 쌓고 있습니다.
+<p align="center">
+  <b>"사용자 경험을 데이터와 코드로 풀어내는 풀스택 개발자입니다."</b>
+</p>
 
-<h3>🗂️프로젝트</h3>
-메이플스토리 정보 검색 사이트, url 단축 서비스 2건의 개인 프로젝트<br>
-중고 거래 플랫폼, 일정 관리 서비스, 여행 정보 제공 사이트 등의 팀 프로젝트를 진행했습니다.
+### 🦢 Introduction
+- 📱 **React Native**를 활용해 웹부터 모바일 앱까지 폭넓은 사용자 인터페이스를 구축합니다.
+- 🟢 **Node.js** 환경에서 비즈니스 로직을 설계하며, **MySQL**을 이용해 효율적인 **데이터베이스 스키마 설계 및 쿼리 최적화**가 가능합니다.
+- 단순히 기능을 만드는 것을 넘어, 데이터의 정규화와 인덱싱을 고민하며 시스템의 안정성과 성능을 중시합니다.
+- 기술로 반복적인 문제를 해결하고, 효율적인 워크플로우를 만드는 과정에 큰 가치를 느낍니다.
 
-<h3>🤗목표</h3>
-많은 웹 프로젝트 경험을 하고, 실력을 키워 언젠간 실제 웹 서비스를 제공하는 사람이 되고 싶습니다.
+### 🗂️ Major Projects
+- **개인 프로젝트**
+    - `애니멀톡(Animal Talk)`: **React Native** 기반의 반려동물 커뮤니티 앱 🐾
+    - `메이플스토리 정보 검색`: 대량의 외부 API 데이터를 가공하여 사용자 맞춤형 정보 제공
+    - `URL 단축 서비스`: 고유 키 생성 알고리즘 및 고성능 리다이렉션을 위한 DB 최적화
+- **팀 프로젝트**
+    - `중고 거래 플랫폼`: 관계형 데이터베이스 설계를 통한 상품 및 거래 상태 관리 총괄
+    - `여행 정보 서비스`: 사용자 맞춤형 경로 추천을 위한 데이터 구조 설계
 
-<h3>🛠기술 스택</h3>
-<div>
-<img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/></a>&nbsp;
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/></a>&nbsp;
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/></a>&nbsp;
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/></a>&nbsp;
-    <img src="https://img.shields.io/badge/React-4479A1?style=flat-square&logo=React&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/></a>&nbsp;
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/></a>&nbsp;
-<img src="https://img.shields.io/badge/TypeScript-1572B6?style=flat-square&logo=TypeScript&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/></a>&nbsp;
-<img src="https://img.shields.io/badge/Jest-E34F26?style=flat-square&logo=Jest&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/></a>&nbsp;
-<img src="https://img.shields.io/badge/Redux-E34F26?style=flat-square&logo=Redux&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/></a>&nbsp;
+### 🛠 Tech Stack
+<div align="left">
+  <img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=React&logoColor=black"/>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=black"/>
+  <br>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=Node.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white"/> (Available)
 </div>
 
-<h3>💻포트폴리오</h3>
-<a href="https://kyuchory.github.io/portfolio/">
-    <img src="http://img.shields.io/badge/Portfolio-00D182?style=flat&logo=Emby&logoColor=white&link=https://kyuchory.github.io/portfolio/"
-        style="height : auto; margin-left : 10px; margin-right : 10px;"/>
-</a
+### 📬 Contact & Links
+- 🐱 **GitHub:** [github.com/kyuchory](https://github.com/kyuchory)
+- 📝 **Portfolio:** [포트폴리오 바로가기](https://kyuchory.github.io/portfolio/)
+- 📧 **Mail:** [이메일 주소]
