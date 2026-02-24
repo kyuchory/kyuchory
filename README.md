@@ -33,5 +33,5 @@
 
 ### 📬 Contact & Links
 - 🐱 **GitHub:** [github.com/kyuchory](https://github.com/kyuchory)
-- 📝 **Portfolio:** [포트폴리오 바로가기](https://kyuchory.github.io/portfolio/)
-- 📧 **Mail:** [이메일 주소]
+- 📝 **Portfolio:** [포트폴리오 바로가기](https://www.notion.so/30dff976006b80fbbaace10d60ade82c?source=copy_link)
+- 📧 **Mail:** sls789456@naver.com
