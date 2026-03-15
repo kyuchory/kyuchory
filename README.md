@@ -33,5 +33,5 @@
 
 ### 📬 Contact & Links
 - 🐱 **GitHub:** [github.com/kyuchory](https://github.com/kyuchory)
-- 📝 **Portfolio:** [포트폴리오 바로가기](https://kyuchory.github.io/portfolio/)
+- 📝 **Portfolio:** [포트폴리오 바로가기](https://butter-drawer-484.notion.site/30dff976006b80fbbaace10d60ade82c?source=copy_link)
 - 📧 **Mail:** [이메일 주소]
